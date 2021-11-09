@@ -573,6 +573,9 @@ footer .attribution a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   main .main__testimonials .testimonials__content .content__client {
     width: 350px;

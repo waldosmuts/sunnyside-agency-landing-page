@@ -389,6 +389,7 @@ footer {
             .testimonials__content {
                 gap: 30px;
                 flex-direction: row;
+                justify-content: center;
                 .content__client {
                     width: 350px;
                     .client__avatar {
