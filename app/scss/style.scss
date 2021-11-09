@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: bottom / cover no-repeat url(/images/mobile/image-header.jpg);
+    background: bottom / cover no-repeat url(./images/mobile/image-header.jpg);
     height: 540px;
     nav {
         display: flex;
@@ -83,7 +83,7 @@ header {
         position: relative;
         animation: header infinite 1s cubic-bezier(0.65, 0, 0.35, 1);
         &::after {
-            content: url(/images/icon-arrow-down.svg);
+            content: url(./images/icon-arrow-down.svg);
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
@@ -173,13 +173,13 @@ main {
             }
         }
         #content__graphic {
-            background: top / cover no-repeat url(/images/mobile/image-graphic-design.jpg);
+            background: top / cover no-repeat url(./images/mobile/image-graphic-design.jpg);
             h2, p {
                 color: $-c-graphic-cyan;
             }
         }
         #content__photo {
-            background: top / cover no-repeat url(/images/mobile/image-photography.jpg);
+            background: top / cover no-repeat url(./images/mobile/image-photography.jpg);
             h2, p {
                 color: $-c-photo-blue;
             }
