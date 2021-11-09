@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: bottom / cover no-repeat url(./images/mobile/image-header.jpg);
+    background: bottom / cover no-repeat url(../../images/mobile/image-header.jpg);
     height: 540px;
     nav {
         display: flex;
@@ -293,7 +293,7 @@ footer {
 
 @media screen and (min-width: 1024px) {
     header {
-        background: bottom / cover no-repeat url(/images/desktop/image-header.jpg);
+        background: bottom / cover no-repeat url(../../images/desktop/image-header.jpg);
         height: 800px;
         nav {
             padding: 30px 40px 0;
@@ -369,7 +369,7 @@ footer {
                 padding: 400px 190px 50px;
             }
             #content__graphic {
-                background: top / cover no-repeat url(/images/desktop/image-graphic-design.jpg);
+                background: top / cover no-repeat url(../../images/desktop/image-graphic-design.jpg);
                 .content__text {
                     p {
                         opacity: 0.75;
@@ -377,7 +377,7 @@ footer {
                 }
             }
             #content__photo {
-                background: top / cover no-repeat url(/images/desktop/image-photography.jpg);
+                background: top / cover no-repeat url(../../images/desktop/image-photography.jpg);
             }
         }
         .main__testimonials {

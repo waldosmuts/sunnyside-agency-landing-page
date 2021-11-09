@@ -70,7 +70,7 @@ body::-webkit-scrollbar {
 }
 
 header {
-  background: bottom/cover no-repeat url(./images/mobile/image-header.jpg);
+  background: bottom/cover no-repeat url(../../images/mobile/image-header.jpg);
   height: 540px;
 }
 
@@ -462,7 +462,7 @@ footer .attribution a:hover {
 
 @media screen and (min-width: 1024px) {
   header {
-    background: bottom/cover no-repeat url(/images/desktop/image-header.jpg);
+    background: bottom/cover no-repeat url(../../images/desktop/image-header.jpg);
     height: 800px;
   }
   header nav {
@@ -552,13 +552,13 @@ footer .attribution a:hover {
     padding: 400px 190px 50px;
   }
   main .main__about #content__graphic {
-    background: top/cover no-repeat url(/images/desktop/image-graphic-design.jpg);
+    background: top/cover no-repeat url(../../images/desktop/image-graphic-design.jpg);
   }
   main .main__about #content__graphic .content__text p {
     opacity: 0.75;
   }
   main .main__about #content__photo {
-    background: top/cover no-repeat url(/images/desktop/image-photography.jpg);
+    background: top/cover no-repeat url(../../images/desktop/image-photography.jpg);
   }
   main .main__testimonials {
     padding: 150px 150px 170px;
